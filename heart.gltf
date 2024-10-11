@@ -1,0 +1,444 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 115828,
+            "type": "VEC3",
+            "max": [
+                37.20866775512695,
+                -63.1748161315918,
+                48.39699935913086
+            ],
+            "min": [
+                -37.23196029663086,
+                -133.73110961914063,
+                -48.39799880981445
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 115828,
+            "type": "VEC3",
+            "max": [
+                0.9999997615814209,
+                0.999964714050293,
+                0.9999997019767761
+            ],
+            "min": [
+                -0.9999933838844299,
+                -0.9999538660049438,
+                -0.9999998807907104
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 652800,
+            "type": "SCALAR",
+            "max": [
+                115827
+            ],
+            "min": [
+                0
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 47673,
+            "type": "VEC3",
+            "max": [
+                11.62485408782959,
+                -87.42366027832031,
+                8.947680473327637
+            ],
+            "min": [
+                -0.6241748929023743,
+                -108.97422790527344,
+                -15.131417274475098
+            ]
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 47673,
+            "type": "VEC3",
+            "max": [
+                0.99997878074646,
+                0.9999604821205139,
+                0.999998927116394
+            ],
+            "min": [
+                -0.9999933838844299,
+                -0.9999538660049438,
+                -0.9999998807907104
+            ]
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 263610,
+            "type": "SCALAR",
+            "max": [
+                47672
+            ],
+            "min": [
+                0
+            ]
+        },
+        {
+            "bufferView": 6,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 75225,
+            "type": "VEC3",
+            "max": [
+                2.802039623260498,
+                -88.37310791015625,
+                15.130417823791504
+            ],
+            "min": [
+                -11.648146629333496,
+                -109.48226928710938,
+                -13.779327392578125
+            ]
+        },
+        {
+            "bufferView": 7,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 75225,
+            "type": "VEC3",
+            "max": [
+                0.9999997615814209,
+                0.999964714050293,
+                0.9999997019767761
+            ],
+            "min": [
+                -0.9999425411224365,
+                -0.9999484419822693,
+                -0.9999952912330627
+            ]
+        },
+        {
+            "bufferView": 8,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 410394,
+            "type": "SCALAR",
+            "max": [
+                75224
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 11036640,
+            "uri": "heart_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 1389936,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1389936,
+            "byteLength": 1389936,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2779872,
+            "byteLength": 2611200,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5391072,
+            "byteLength": 572076,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5963148,
+            "byteLength": 572076,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 6535224,
+            "byteLength": 1054440,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 7589664,
+            "byteLength": 902700,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 8492364,
+            "byteLength": 902700,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 9395064,
+            "byteLength": 1641576,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "__DEFAULT",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.20000000298023224
+            },
+            "doubleSided": true
+        },
+        {
+            "name": "WhiteMetal",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0
+            },
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 2,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "meshes[1]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 5,
+                    "attributes": {
+                        "POSITION": 3,
+                        "NORMAL": 4
+                    }
+                }
+            ]
+        },
+        {
+            "name": "meshes[2]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 1,
+                    "indices": 8,
+                    "attributes": {
+                        "POSITION": 6,
+                        "NORMAL": 7
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "heart",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "STL_File_created_by_netfabb_-_httpwwwnetfabbcom_UNITS=MM_0",
+            "matrix": [
+                0.8610076308250427,
+                -0.5010685324668884,
+                -0.08715604990720749,
+                0.0,
+                -0.08491344749927521,
+                0.0273364819586277,
+                -0.9960132837295532,
+                0.0,
+                0.5014534592628479,
+                0.8649757504463196,
+                -0.01901054009795189,
+                0.0,
+                2.003939390182495,
+                32.216766357421875,
+                -46.12394714355469,
+                1.0
+            ],
+            "children": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "STL File created by netfabb - http://www.netfabb.com UNITS=MM_0"
+            }
+        },
+        {
+            "name": "_1",
+            "extras": {
+                "name": "_1"
+            }
+        },
+        {
+            "name": "sub03_3",
+            "extras": {
+                "name": "sub03_3"
+            }
+        },
+        {
+            "name": "sub01_5",
+            "extras": {
+                "name": "sub01_5"
+            }
+        },
+        {
+            "name": "sub01_6",
+            "extras": {
+                "name": "sub01_6"
+            }
+        },
+        {
+            "name": "sub03_7",
+            "extras": {
+                "name": "sub03_7"
+            }
+        },
+        {
+            "name": "sub01_9",
+            "extras": {
+                "name": "sub01_9"
+            }
+        },
+        {
+            "name": "sub02_10",
+            "extras": {
+                "name": "sub02_10"
+            }
+        },
+        {
+            "name": "sub03_11",
+            "extras": {
+                "name": "sub03_11"
+            }
+        },
+        {
+            "name": "_14",
+            "extras": {
+                "name": "_14"
+            }
+        },
+        {
+            "name": "sub03_15",
+            "extras": {
+                "name": "sub03_15"
+            }
+        },
+        {
+            "name": "sub01_16",
+            "extras": {
+                "name": "sub01_16"
+            }
+        },
+        {
+            "name": "sub02_17",
+            "extras": {
+                "name": "sub02_17"
+            }
+        },
+        {
+            "name": "COLOR=���,MATERIAL=��_18",
+            "matrix": [
+                1.093000054359436,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.8191520571708679,
+                0.5735763907432556,
+                0.0,
+                0.0,
+                -0.5735763907432556,
+                0.8191520571708679,
+                0.0,
+                -29.30000114440918,
+                -17.0,
+                0.0,
+                1.0
+            ],
+            "extras": {
+                "name": "COLOR=���,MATERIAL=��_18"
+            }
+        },
+        {
+            "name": "STL_File_created_by_netfabb_-_httpwwwnetfabbcom_UNITS=MM_12",
+            "mesh": 1,
+            "extras": {
+                "name": "STL File created by netfabb - http://www.netfabb.com UNITS=MM_12"
+            }
+        },
+        {
+            "name": "STL_File_created_by_netfabb_-_httpwwwnetfabbcom_UNITS=MM_13",
+            "mesh": 2,
+            "extras": {
+                "name": "STL File created by netfabb - http://www.netfabb.com UNITS=MM_13"
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}
